@@ -16,3 +16,12 @@
     width: 233px;
     height: 218px;
 }
+.custom .face.up, .custom .face.down,
+.custom .face.left, .custom .face.right{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
