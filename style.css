@@ -3,3 +3,224 @@
     height: 558px;
     width: 784px;
 }
+
+.custom .bumpers{
+    position: absolute;
+    height: 100px;
+    width: 664px;
+    top: 30px;
+    left: 284px;
+}
+
+.custom .bumper.left{
+    background: url(https://imgur.com/Wd6VBny.png)no-repeat;
+    height: 27px;
+    width: 341px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -251px;
+}
+
+.custom .bumper.right{
+    background: url(https://imgur.com/Wd6VBny.png)no-repeat;
+    height: 27px;
+    width: 341px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.custom .triggers{
+    position: absolute;
+    left: 825px;
+    top: 70px;
+}
+
+.custom .trigger.left{
+    width: 103px;
+    height: 87px;
+    background: url(https://i.imgur.com/jfqnqtV.png)no-repeat;
+    display: block;
+    /* top: 4px; */
+}
+
+.custom .dpad{
+    width: 150px;
+    height: 150px;
+    /* background: #FF00008F; */
+    position: absolute;
+    background-size:  164px;
+    top: 259px;
+    left: 327px;
+}
+
+.custom .dpad .face{
+    background: url(https://imgur.com/prOPSDe.png);
+    height: 77px;
+    width: 47px;
+    /* background-position-y: -164px; */
+    display: block;
+    position: absolute;
+}
+
+.custom .dpad .face.up{
+    left: 31px;
+    top: -9px;
+    /* background-size: 100px; */
+}
+
+
+.custom .dpad .face.down{
+    transform: rotate(180deg);
+    left: 31px;
+    top: 75px;
+}
+
+.custom .dpad .face.left{
+    transform: rotate(-90deg);
+    top: 32px;
+    left: -11px;
+}
+
+.custom .dpad .face.right{
+    transform: rotate(90deg);
+    top: 33px;
+    left: 73px;
+}
+
+/* We're using the node used for a controller's system button here */
+.custom .meta{
+    background: url(https://gamepadviewer.com/n64-assets/buttons.svgz);
+    width: 55px;
+    height: 55px;
+    background-position-y: -282px;
+    position: absolute;
+    left: 377px;
+    top: 344px
+}
+
+.custom .abxy{
+    position: absolute;
+    top: 245px;
+    left: 609px
+}
+
+.custom .abxy .button{
+    background: url(https://gamepadviewer.com/gc-assets/buttons.svgz);
+    width: 73px;
+    height: 73px;
+    /* background-position-x: -116px; */
+    display: block;
+    position: absolute;
+}
+
+.custom .abxy .button.a{
+    left: 114px;
+    top: -76px;
+    background-size: 640px;
+    width: 143px;
+    height: 141px;
+    transform: scale;
+}
+
+.custom .abxy .button.b{
+    left: 260px;
+    top: -73px;
+    height:  144px;
+    width: 92px;
+    background-size:  720px;
+    background-position-x: 312px;
+    transform: rotate(11deg);
+}
+
+.custom .abxy .button.x{
+    top: 62px;
+    left: 73px;
+    height: 77px;
+    width: 78px;
+    background-size: 555px;
+    /* transform: rotate(-90deg) */
+    background-position-x: 430px;
+}
+
+.custom .abxy .button.y{
+    left: 65px;
+    top: -165px;
+    width: 144px;
+    height: 92px;
+    background-position-x: 457px;
+    background-size: 720px;
+    /* transform: rotate(-1deg); */
+}
+
+.custom .arrows{
+    position: absolute;
+    top: 335px;
+    left: 529px
+}
+
+.custom .start{
+    background: url(https://imgur.com/RuHF1J5.png);
+    width: 71px;
+    height: 71px;
+    /* background-position-y: -341px; */
+    display: block;
+    position: relative;
+}
+
+.custom .start{
+    /* background-position-y: -405px; */
+    top: -225px;
+    left: -75px;
+}
+
+.custom .sticks{
+    /* position: absolute; */
+    top: 493px;
+    left: 369px;
+}
+
+.custom .stick.left{
+    background: url(https://gamepadviewer.com/gc-assets/left-stick.svgz);
+    width: 180px;
+    height: 180px;
+    display: block;
+    top: 111px;
+    left: 93px;
+    background-size: 180px;
+    /* transform: scale(2); */
+    /* background-position-y: 73px; */
+}
+
+.custom .stick {
+    position:  absolute;
+}
+
+.custom .stick.right{
+    background: url(https://gamepadviewer.com/gc-assets/cstick.svgz)no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 279px;
+    left: 530px;
+    background-size:  100px;
+    display: block;
+}
+
+.custom .stick {
+    position:  absolute;
+}
+
+.custom .button,
+.custom .face,
+.custom .meta,
+.custom .bumper,
+.custom .trigger,
+.custom .arrows *{
+    opacity: 0;
+}
+
+.custom .pressed{
+    opacity: 1
+}
