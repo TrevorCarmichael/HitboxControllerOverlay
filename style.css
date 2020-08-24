@@ -22,6 +22,10 @@
     width: 57px;
     height: 57px;
     border-radius: 50%;
+    border: 1px black;
     top: 0;
     left: 0;
+}
+.custom .face.pressed{
+    background-color: green;
 }
