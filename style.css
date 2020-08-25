@@ -70,12 +70,12 @@
 }
 
 .custom .face.up.pressed {
-    background-image: url('BIG-BUTTON-PRESS.svg');
+    background-image: url('BIG-BUTTON-PRESSED.svg');
 }
 
 .custom .bumper.left.pressed, .custom .bumper.right.pressed,
 .custom .trigger-button.left.pressed, .custom .trigger-button.right.pressed {
-    background-image: url('BUTTON-PRESS-GREY');
+    background-image: url('BUTTON-PRESS-GREY.svg');
 }
 
 .custom .abxy {
