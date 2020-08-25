@@ -4,7 +4,6 @@
     height: 660px;
 }
 .custom.disconnected { 
-    /*background: url(https://i.imgur.com/DR89ZMf.png); */
     width: 1020px;
     height: 660px;
 }
@@ -24,14 +23,14 @@
     position: absolute;
     width: 61px;
     height: 61px;
-    background-image: url('data:image/svg+xml;base64,BUTTON.svg');
+    background-image: url('BUTTON.svg');
 }
 
 .custom .face.up {
     position: absolute;
     width: 75px;
     height: 75px;
-    background-image: url('data:image/svg+xml;base64,BIG-BUTTON.svg);
+    background-image: url('BIG-BUTTON.svg);
 }
 
 .custom .face.left{
@@ -51,32 +50,32 @@
     left: 162.609px;
 }
 .custom .face.left.pressed, .custom .face.down.pressed, .custom .face.right.pressed {
-    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS.svg');
+    background-image: url('BUTTON-PRESS.svg');
 }
 
 .custom .abxy .button.a.pressed{
-    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-GREEN.svg');
+    background-image: url('BUTTON-PRESS-GREEN.svg');
 }
 
 .custom .abxy .button.b.pressed{
-    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-RED.svg');
+    background-image: url('BUTTON-PRESS-RED.svg');
 }
 
 .custom .abxy .button.x.pressed{
-    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-BLUE.svg');
+    background-image: url('BUTTON-PRESS-BLUE.svg');
 }
 
 .custom .abxy .button.y.pressed{
-    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-YELLOW.svg');
+    background-image: url('BUTTON-PRESS-YELLOW.svg');
 }
 
 .custom .face.up.pressed {
-    background-image: url('data:image/svg+xml;base64,BIG-BUTTON-PRESS.svg');
+    background-image: url('BIG-BUTTON-PRESS.svg');
 }
 
 .custom .bumper.left.pressed, .custom .bumper.right.pressed,
 .custom .trigger-button.left.pressed, .custom .trigger-button.right.pressed {
-    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-GREY');
+    background-image: url('BUTTON-PRESS-GREY');
 }
 
 .custom .abxy {
