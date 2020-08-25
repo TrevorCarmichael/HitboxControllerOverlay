@@ -53,7 +53,7 @@
     background-image: url('BUTTON-PRESS.svg');
 }
 
-.custom .abxy .button.a.pressed{
+/*.custom .abxy .button.a.pressed{
     background-image: url('BUTTON-PRESS-GREEN.svg');
 }
 
@@ -67,10 +67,15 @@
 
 .custom .abxy .button.y.pressed{
     background-image: url('BUTTON-PRESS-YELLOW.svg');
-}
+}*/
 
 .custom .face.up.pressed {
     background-image: url('BIG-BUTTON-PRESSED.svg');
+}
+
+.custom .abxy .button.a.pressed, .custom .abxy .button.b.pressed,
+.custom .abxy .button.x.pressed, .custom .abxy .button.y.pressed {
+    background-image: url('BUTTON-PRESS-GREY.svg');
 }
 
 .custom .bumper.left.pressed, .custom .bumper.right.pressed,
