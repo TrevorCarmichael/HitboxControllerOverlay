@@ -8,3 +8,139 @@
     width: 1020px;
     height: 660px;
 }
+.custom .dpad{
+    position: absolute;
+    top: 235px;
+    left: 315px;
+    width: 237.553px;
+    height: 220.428px;
+}
+
+.custom .face.down, .custom .face.left, .custom .face.right,
+.custom .abxy .button,
+.custom .bumper.left, .custom .bumper.right,
+.custom .trigger-button.left, .custom .trigger-button.right
+{
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    background-image: url('data:image/svg+xml;base64,BUTTON.svg');
+}
+
+.custom .face.up {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-image: url('data:image/svg+xml;base64,BIG-BUTTON.svg);
+}
+
+.custom .face.left{
+    top: 0;
+    left: 0;
+}
+.custom .face.down{
+    top: 0;
+    left: 70.870px;
+}
+.custom .face.right{
+    top: 31.582px;
+    left: 132.897px;
+}
+.custom .face.up{
+    top: 148.454px;
+    left: 162.609px;
+}
+.custom .face.left.pressed, .custom .face.down.pressed, .custom .face.right.pressed {
+    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS.svg');
+}
+
+.custom .abxy .button.a.pressed{
+    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-GREEN.svg');
+}
+
+.custom .abxy .button.b.pressed{
+    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-RED.svg');
+}
+
+.custom .abxy .button.x.pressed{
+    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-BLUE.svg');
+}
+
+.custom .abxy .button.y.pressed{
+    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-YELLOW.svg');
+}
+
+.custom .face.up.pressed {
+    background-image: url('data:image/svg+xml;base64,BIG-BUTTON-PRESS.svg');
+}
+
+.custom .bumper.left.pressed, .custom .bumper.right.pressed,
+.custom .trigger-button.left.pressed, .custom .trigger-button.right.pressed {
+    background-image: url('data:image/svg+xml;base64,BUTTON-PRESS-GREY');
+}
+
+.custom .abxy {
+    position: absolute;
+    top: 210px;
+    left: 507px;
+    width: 638.419px;
+    height: 158.604;
+}
+
+.custom .abxy .button.a{
+    top: 97.604px;
+    left: 0;
+}
+
+.custom .abxy .button.b{
+    top: 71.148px;
+    left: 66.417px;
+}
+.custom .abxy .button.x{
+    top: 28.463px;
+    left: 6.614px;
+}
+
+.custom .abxy .button.y{
+    top: 0.228px;
+    left: 70.419px;
+}
+
+.custom .bumpers {
+    position: absolute;
+    top: 212px;
+    left: 647px;
+    width: 130px;
+    height 69px;
+}
+
+.custom .bumper.right{
+    position: absolute;
+    left: 0.662px;
+    top: 0.451px; 
+}
+.custom .bumper.left{
+    position: absolute;
+    left: 69.813px;
+    top: 7.556px; 
+}
+
+.custom .triggers {
+    position: absolute; 
+    top: 280px;
+    left: 646px;
+    height: 72px;
+    width: 132px; 
+}
+
+.custom .trigger-button.left{
+    position: absolute;
+    left: 70.146px;
+    top: 12.709px;
+}
+
+.custom .trigger-button.right{
+    position: absolute;
+    left: 0.560px;
+    top: 0.926px;
+}
